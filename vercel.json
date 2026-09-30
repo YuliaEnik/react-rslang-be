@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/files/:path*", "destination": "https://cdn.jsdelivr.net/gh/YuliaEnik/react-rslang-be@main/files/:path*" },
+    { "source": "/(.*)", "destination": "/api" }
+  ]
+}
